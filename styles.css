@@ -46,17 +46,19 @@ header h1 {
 }
 
 .unser-nav span a {
-  position: relative;
-  top: -15px;
-  left: 15px;
+    position: relative;
+    top: -15px;
+    left: 15px;
+    font-size: 12px;
 }
 .unser-nav a {
   text-decoration: none;
   color: #F2F2F2;
 }
 .unser-nav i {
-  padding-left: 20px; 
+  padding-left: 10px; 
 }
+
 header nav.navbar.navbar-default {
   margin-top: 35px;
 }
@@ -73,7 +75,9 @@ header nav.navbar.navbar-default li.active {
   border-bottom: solid #3EBEC3;
   text-align: center;
 }
-
+header nav.navbar.navbar-default li a {
+    font-size: 12px;
+}
 li a {
   text-decoration: none;
   line-height: 40px;
@@ -136,14 +140,9 @@ section.search {
 }
 .col-md-4{
   position: relative;
-  /* min-height: 1px; */
   padding-right: 15px;
   padding-left: 15px;
-  /* float: left; */
-  /* display: inline-block; */
-  /* width:  100%; */
   width: 230px;
-  /* display: flex; */
 }
 .content.row{
   -moz-column-width: 228px;
@@ -173,7 +172,6 @@ section.search {
 }
 .thumbnail {
   display: block;
-  /* padding: 4px; */
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -236,9 +234,10 @@ a.ranking.btn.btn-default
 }
 
 div > h4 {
-  position: relative;
-  bottom: -128px;
-  color: white;
+    position: relative;
+    bottom: -136px;
+    color: white;
+    font-size: 12px;
 }
 .col-md-3 {
   position: absolute;
@@ -265,5 +264,8 @@ ul.site-nav.navbar-nav li.active {
 
 ul.site-nav.navbar-nav li.active a {
   color: #434A54;
+}
+ul.site-nav.navbar-nav li a {
+    font-size: 12px;
 }
 /*END ASIDE SECTION*/
